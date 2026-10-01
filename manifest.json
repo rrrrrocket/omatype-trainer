@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.rrrrrocket.omatype-trainer",
+  "name": "omatype-trainer",
+  "version": "1.2.0",
+  "author": "rocket",
+  "description": "Adaptive typing practice with natural words, manual key levels, coding drills, and customizable keyboard and sound themes.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "v2/BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "omatype-trainer",
+    "description": "Adaptive typing practice and coding drills",
+    "category": "Productivity",
+    "allowMultiple": false
+  },
+  "license": "AGPL-3.0-only"
+}
